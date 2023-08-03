@@ -1,0 +1,23 @@
+.contact-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--solid-black);
+    color: var(--char-donnay);
+    padding: 100px;
+}
+
+.contact{
+    line-height: 50px;
+    border: 1px solid var(--char-donnay);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.contact p{
+    font-family: var(--sub-font);
+}

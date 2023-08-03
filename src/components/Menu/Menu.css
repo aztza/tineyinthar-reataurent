@@ -1,0 +1,18 @@
+.menu--menu-container{
+    background-color: rgb(3,2,2,0.9);
+    padding: 0px 20px 40px 20px 
+}
+
+.menu-header{
+    text-align: center;
+    padding: 30px;
+    font-family: var(--main-font);
+    color: var(--char-donnay);
+}
+
+@media screen and (max-width: 550px){
+    .menu-header{
+        padding: 30px;
+        font-size: 25px;
+    }
+}
